@@ -4,7 +4,10 @@ export const Logo = () => {
 	return (
 		<div>
 			  <a className="navbar-brand" href="/">
-					<img src="../../assets/global/logo.png" alt="IStandard Logo" />
+					<img 
+					src="/assets/global/logo.png" 
+					alt="IStandard Logo" 
+					width="150px"/>
 				</a>
 		</div>
 	)
