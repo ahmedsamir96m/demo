@@ -11,7 +11,7 @@ import {Logo} from '../logo/Logo'
 
 export const Navigation = () => {
 	return (
-		<Navbar bg="primary" variant="dark" expand="lg">
+		<Navbar bg="light" variant="light" expand="lg" id='main-navigation'>
       <Container>
       	<Navbar.Brand href="#home">
 					<Logo />
