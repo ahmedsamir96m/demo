@@ -1,4 +1,4 @@
-import { Navbar } from "./components/navbar/Navbar";
+import { Navigation } from "./components/navbar/Navbar";
 import { MainSlider } from "./components/mainSlider/MainSlider";
 import { Products } from "./components/products/Products";
 import { Luxury } from "./components/luxury/Luxury";
@@ -8,7 +8,7 @@ import { Footer } from "./components/footer/Footer";
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navigation />
       <MainSlider />
       <Products />
       <Luxury />
