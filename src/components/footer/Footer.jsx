@@ -52,8 +52,11 @@ export const Footer = () => {
 						</div>
 					</div>
 
-					<div className="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-						<p>© 2022 Company, Inc. All rights reserved.</p>
+					<div className="d-flex flex-column flex-sm-row justify-content-around py-4 my-4 border-top">
+						<div>
+						<img src="/assets/global/logo.png" width="150px" alt="IStandard Logo" style={{backgroundColor: '#fff'}} />
+						<p>© 2022 IStandard, Inc. All rights reserved.</p>
+						</div>
 						<ul className="list-unstyled d-flex">
 							<li>Follow Us!</li>
 							<li className="ms-3"><a className="link-dark" href="/"><img src="/assets/partners/twitter-logo.png" alt="Follow us on Twitter" style={{width:'30px', borderRadius: '3px'}} title='Follow us on Twitter'/></a></li>
