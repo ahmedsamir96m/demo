@@ -5,7 +5,7 @@ export const Logo = () => {
 		<div>
 			  <a className="navbar-brand" href="/">
 					<img 
-					src="/assets/global/logo.png" 
+					src="./assets/global/logo.png" 
 					alt="IStandard Logo" 
 					width="150px"/>
 				</a>

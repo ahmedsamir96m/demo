@@ -8,8 +8,8 @@ export const MainSlider = () => {
       <Carousel.Item interval={1500}>
         <img
           className="d-block w-100"
-          src="/assets/global/design1.jpg"
-          alt="First slide"
+          src="./assets/global/design1.jpg"
+          alt="Ultra Moderen Bathroom Design"
 					style={{height:"600px"}}
         />
         <Carousel.Caption>
@@ -21,8 +21,8 @@ export const MainSlider = () => {
       <Carousel.Item interval={1500}>
         <img
           className="d-block w-100"
-          src="/assets/global/design6.jpg"
-          alt="Second slide"
+          src="./assets/global/design6.jpg"
+          alt="Flat Designs For The Best Experiences"
 					style={{height:"600px"}}
         />
         <Carousel.Caption>
@@ -34,8 +34,8 @@ export const MainSlider = () => {
       <Carousel.Item interval={1500}>
         <img
           className="d-block w-100"
-          src="/assets/global/design5.jpg"
-          alt="Third slide"
+          src="./assets/global/design5.jpg"
+          alt="Modrated Designs"
 					style={{height:"600px"}}
         />
         <Carousel.Caption>
